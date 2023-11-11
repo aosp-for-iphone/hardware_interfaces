@@ -27,6 +27,8 @@
 #include "SharedLibrary.h"
 #include "TypeConvert.h"
 
+#pragma GCC diagnostic ignored "-Wformat"
+
 namespace android {
 using hidl::memory::V1_0::IMemory;
 
